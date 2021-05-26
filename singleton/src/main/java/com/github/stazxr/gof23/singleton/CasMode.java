@@ -1,4 +1,4 @@
-package create.singleton;
+package com.github.stazxr.gof23.singleton;
 
 import java.util.concurrent.atomic.AtomicReference;
 

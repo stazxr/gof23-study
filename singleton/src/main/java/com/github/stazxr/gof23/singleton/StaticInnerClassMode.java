@@ -1,4 +1,4 @@
-package create.singleton;
+package com.github.stazxr.gof23.singleton;
 
 /**
  * 静态内部类模式（线程安全）

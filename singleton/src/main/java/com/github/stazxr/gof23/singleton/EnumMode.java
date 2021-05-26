@@ -1,4 +1,4 @@
-package create.singleton;
+package com.github.stazxr.gof23.singleton;
 
 /**
  * 枚举模式（线程安全）
