@@ -1,4 +1,4 @@
-package com.github.stazxr.gof23.factorymethod.ifelse;
+package com.github.stazxr.gof23.factorymethod.old;
 
 import com.alibaba.fastjson.JSON;
 import com.github.stazxr.gof23.factorymethod.AwardReq;

@@ -1,7 +1,7 @@
-package com.github.stazxr.gof23.factorymethod.demo;
+package com.github.stazxr.gof23.factorymethod.news;
 
 import com.github.stazxr.gof23.factorymethod.AwardType;
-import com.github.stazxr.gof23.factorymethod.demo.store.ICommodity;
+import com.github.stazxr.gof23.factorymethod.news.store.ICommodity;
 import org.junit.Test;
 
 import java.util.HashMap;

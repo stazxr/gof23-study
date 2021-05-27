@@ -1,10 +1,10 @@
-package com.github.stazxr.gof23.factorymethod.demo;
+package com.github.stazxr.gof23.factorymethod.news;
 
 import com.github.stazxr.gof23.factorymethod.AwardType;
-import com.github.stazxr.gof23.factorymethod.demo.store.ICommodity;
-import com.github.stazxr.gof23.factorymethod.demo.store.impl.CardCommodityService;
-import com.github.stazxr.gof23.factorymethod.demo.store.impl.CouponCommodityService;
-import com.github.stazxr.gof23.factorymethod.demo.store.impl.GoodsCommodityService;
+import com.github.stazxr.gof23.factorymethod.news.store.ICommodity;
+import com.github.stazxr.gof23.factorymethod.news.store.impl.CardCommodityService;
+import com.github.stazxr.gof23.factorymethod.news.store.impl.CouponCommodityService;
+import com.github.stazxr.gof23.factorymethod.news.store.impl.GoodsCommodityService;
 
 public class StoreFactory {
     public ICommodity getCommodityService(AwardType commodityType) {

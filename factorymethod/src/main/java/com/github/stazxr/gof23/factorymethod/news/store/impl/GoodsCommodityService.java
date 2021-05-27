@@ -1,7 +1,7 @@
-package com.github.stazxr.gof23.factorymethod.demo.store.impl;
+package com.github.stazxr.gof23.factorymethod.news.store.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.github.stazxr.gof23.factorymethod.demo.store.ICommodity;
+import com.github.stazxr.gof23.factorymethod.news.store.ICommodity;
 import com.github.stazxr.gof23.factorymethod.goods.DeliverReq;
 import com.github.stazxr.gof23.factorymethod.goods.GoodsService;
 import lombok.extern.slf4j.Slf4j;

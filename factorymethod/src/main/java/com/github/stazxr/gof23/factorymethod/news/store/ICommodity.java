@@ -1,4 +1,4 @@
-package com.github.stazxr.gof23.factorymethod.demo.store;
+package com.github.stazxr.gof23.factorymethod.news.store;
 
 import java.util.Map;
 
