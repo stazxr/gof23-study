@@ -1,6 +1,5 @@
 package com.github.stazxr.gof23.builder.news;
 
-import com.github.stazxr.gof23.builder.news.Builder;
 import org.junit.Test;
 
 public class ApiTest {

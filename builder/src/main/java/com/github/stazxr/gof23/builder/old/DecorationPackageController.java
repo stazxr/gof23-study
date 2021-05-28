@@ -23,7 +23,7 @@ public class DecorationPackageController {
      */
     public String getMatterList(BigDecimal area, Integer level) {
         // 装修清单
-        List<Matter> list = new ArrayList<Matter>();
+        List<Matter> list = new ArrayList<>();
 
         // 装修价格
         BigDecimal price = BigDecimal.ZERO;

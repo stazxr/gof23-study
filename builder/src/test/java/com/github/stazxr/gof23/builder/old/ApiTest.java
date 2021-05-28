@@ -1,6 +1,5 @@
 package com.github.stazxr.gof23.builder.old;
 
-import com.github.stazxr.gof23.builder.old.DecorationPackageController;
 import org.junit.Test;
 
 import java.math.BigDecimal;
