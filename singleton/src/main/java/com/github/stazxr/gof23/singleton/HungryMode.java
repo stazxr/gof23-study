@@ -7,12 +7,12 @@ package com.github.stazxr.gof23.singleton;
  * 需根据业务场景决定是否使用
  */
 public class HungryMode {
-    private static HungryMode instance = new HungryMode();
+    private static final HungryMode instance = new HungryMode();
 
     private HungryMode() {
     }
 
-    public static synchronized HungryMode getInstance() {
+    public static HungryMode getInstance() {
         return instance;
     }
 }
