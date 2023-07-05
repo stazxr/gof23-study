@@ -5,18 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.stazxr</groupId>
-    <artifactId>GOF23-Demo</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>gof23</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>singleton</module>
-        <module>factorymethod</module>
-        <module>abstractfactory</module>
-        <module>builder</module>
-        <module>prototype</module>
-    </modules>
+
+    <name>gof23</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>2.2.2</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
